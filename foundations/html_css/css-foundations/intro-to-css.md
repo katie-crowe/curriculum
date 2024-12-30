@@ -121,7 +121,7 @@ What if we have two groups of elements that share some of their style declaratio
 }
 ```
 
-Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations, but otherwise have several of their own unique declarations. To cut down on the repetition, we can group these two selectors together as a comma-separated list:
+Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations, but otherwise have several of their own unique declarations. To cut down on the repetition, we can group these two selectors together as a semicolon-separated list:
 
 ```css
 .read,
